@@ -12,4 +12,10 @@ export class ClaseInformesPipe implements PipeTransform {
     return `${clase[0]}-${clase[1]}`;
   }
 
+  transformYear(value: any): any {
+    const clase = value.split(' ');
+
+    return `${clase[0]}`;
+  }
+
 }

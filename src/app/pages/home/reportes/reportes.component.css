@@ -83,6 +83,14 @@ a:link, a:visited, a:active {
     display: none;
 }
 
+.ver-trimestre {
+    display: inline;
+}
+
+.nover-trimestre {
+    display: none;
+}
+
 @media(max-width: 768px) {
     /*-- titulos --*/
     h2.sub-titulo {
