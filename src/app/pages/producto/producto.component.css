@@ -1,0 +1,138 @@
+.containerDiv{
+  margin-left: 50px;
+}
+
+.headerCard{
+  background-color: #002d72;
+  color:white;
+}
+
+.btn-font{
+  color: white;
+}
+
+.border{
+  border-radius: 5px;
+}
+
+.ul-margin{
+  margin-left: 10px;
+  margin-top:10px
+}
+
+.body-bx{
+  background-color:#DDDDDD;
+  font-size: 14px;
+  color:#056dad
+}
+
+.titles{
+  font-size: 32px;
+  text-align: center;
+  font-family: interstate-mono,sans-serif;
+  font-weight: 700;
+  color: #004785;
+}
+
+.content-text{
+  font-family: interstate-mono,sans-serif;
+  font-size: 12px;
+  line-height: 20px
+}
+
+.margin-box{
+margin-top:20px
+}
+
+.title{
+  margin-bottom:2px;
+  margin-top:25px;
+}
+
+.font-box{
+  font-size: 14px;
+}
+
+.collapse-distance{
+margin-bottom:3px;
+}
+
+.btn-font:hover:before {
+  color: white;
+}
+
+.btn:hover::before{
+  color: white;
+}
+
+a:link, a:visited, a:active {
+  text-decoration:none;
+}
+
+.no-hover {
+  position: relative;
+  opacity: 0.65 !important;
+  display: inline-block;
+}
+
+.container {
+  max-width: 960px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav li {
+  border-bottom: 1px solid #eee;
+}
+
+.nav li a {
+  font-size: 14px;
+}
+
+#accordionMenu {
+  max-width: 300px;
+}
+
+.panel-body {
+  padding: 0;
+}
+
+.panel-group .panel+.panel {
+  margin-top: 0;
+  border-top: 0;
+}
+
+.panel-group .panel {
+  border-radius: 0;
+}
+
+.panel-default>.panel-heading {
+  color: white;
+  background-color: #002d72;
+  border-color: #002d72;;
+  padding: 0;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.panel-default>.panel-heading a {
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+}
+
+.panel-default>.panel-heading a[aria-expanded="true"] {
+  background-color: #002d72;
+}
+
+.active {
+  color: white;
+  font-weight: 900;
+}
+

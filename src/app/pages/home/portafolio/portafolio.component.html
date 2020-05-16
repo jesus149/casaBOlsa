@@ -1,0 +1,71 @@
+<div class="container-fluid wBlanco">
+    <section class="container portafolio sectionM" data-section="Portafolio">
+        <ng-container *ngFor="let info of briefcase">
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-4">
+                    <h3 class="text-center">{{info.title}}</h3>
+                </div>
+                <div class="col-md-4"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-8">
+                    <p>{{info.text}}</p>
+                </div>
+                <div class="col-md-2"></div>
+            </div>
+        </ng-container>
+        <div class="container divColum">
+            <ng-container *ngFor="let info of briefcaseColum1">
+                <div class="row justify-content-center">
+                    <div class="col-4 text-center">
+                        <h3>{{info.analysis}}</h3>
+                        <a routerLink="{{info.routerAnalysis}}">
+                            {{info.product}}
+                        </a>
+                    </div>
+                    <div class="col-4 text-center">
+                        <h3>{{info.bankin}}</h3>
+                        <a routerLink="{{info.routerBankin}}">
+                            {{info.product}}
+                        </a>
+                    </div>
+                </div>
+                </ng-container>
+                <ng-container *ngFor="let info of briefcaseColum2">
+                    <div class="row justify-content-center">
+                        <div class="col-4 text-center">
+                            <h3>{{info.capital}}</h3>
+                            <a routerLink="{{info.routerLinkCapital}}">
+                                {{info.product}}
+                            </a>
+                        </div>
+                        <div class="col-4 text-center">
+                            <h3>{{info.distribution}}</h3>
+                            <a routerLink="{{info.routerLinkDistribution}}">
+                                {{info.product}}
+                            </a>
+                        </div>
+                    </div>
+                    </ng-container>
+                    <ng-container *ngFor="let info of briefcaseColum3">
+                        <div class="row justify-content-center">
+                            <div class="col-4 text-center">
+                                <h3>{{info.investment}}</h3>
+                                <a href="{{info.routerLinkInvestment}}" target="_blank">
+                                    {{info.product}}
+                                </a>
+                            </div>
+                            <div class="col-4 text-center">
+                                <h3>{{info.markets}}</h3>
+                                <a routerLink="{{info.routerLinkMarkets}}">
+                                    {{info.product}}
+                                </a>
+                            </div>
+                        </div>
+                    </ng-container>
+        </div>
+    </section>
+</div>
+

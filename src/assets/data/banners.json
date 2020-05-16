@@ -1,0 +1,112 @@
+{
+    "imagesBanners": [
+        {
+            "name": "Bolsa Mexicana",
+            "image": "../../../../assets/images/hero/logo-sitio_bmv.jpg",
+            "site": "Ir al sitio",
+            "modalText": "Estás saliendo de citibanamex.com<br> y entrarás a un sitio web ajeno a Citibanamex, el cual es responsable de sus propios contenidos y mantiene su política de privacidad y seguridad.",
+            "cancel": "CANCELAR",
+            "accept": "ACEPTAR",
+            "url": "https://www.bmv.com.mx/",
+            "id":"1"
+        },
+        {
+            "name": "MEXDER",
+            "image": "../../../../assets/images/hero/logo-sitio_mexder.jpg",
+            "site": "Ir al sitio",
+            "modalText": "Estás saliendo de citibanamex.com<br> y entrarás a un sitio web ajeno a Citibanamex, el cual es responsable de sus propios contenidos y mantiene su política de privacidad y seguridad.",
+            "cancel": "CANCELAR",
+            "accept": "ACEPTAR",
+            "url": "http://www.mexder.com.mx/wb3/wb/MEX",
+            "id":"2"
+        },
+        {
+            "name": "Comisión Nacional Bancaria y de Valores",
+            "image": "../../../../assets/images/hero/logo-sitio_cnbv.jpg",
+            "site": "Ir al sitio",
+            "modalText": "Estás saliendo de citibanamex.com<br> y entrarás a un sitio web ajeno a Citibanamex, el cual es responsable de sus propios contenidos y mantiene su política de privacidad y seguridad.",
+            "cancel": "CANCELAR",
+            "accept": "ACEPTAR",
+            "url": "https://www.gob.mx/cnbv",
+            "id":"3"
+        },
+        {
+            "name": "AMIB",
+            "image": "../../../../assets/images/hero/logo-sitio_amib.jpg",
+            "site": "Ir al sitio",
+            "modalText": "Estás saliendo de citibanamex.com<br> y entrarás a un sitio web ajeno a Citibanamex, el cual es responsable de sus propios contenidos y mantiene su política de privacidad y seguridad.",
+            "cancel": "CANCELAR",
+            "accept": "ACEPTAR",
+            "url": "http://www.amib.com.mx/",
+            "id":"4"
+        }
+      
+      ],
+        "textBolsaMexicana": "- La Bolsa Mexicana de Valores reconoció a Citibanamex por su desempeño como agente de bolsa, encabezando el mayor volumen de transacciones durante 2019.-",
+        "bannersTitleWp": "Guia de Servicios <br> de Inversión",
+        "bannersPdfWp": "../src/pdf/vinetas/guiainversion.pdf",
+        "hereWp": "Consulta aquí",
+        "iconWp": "<i class='fa fa-wpforms'></i>",
+        "bannersTitle": "Cuestionario de <br> Perfilamiento",
+        "bannersPdf": "../../../assets/pdf/vinetas/CuestionarioPerfilamiento.pdf",
+        "here": "Consulta aquí",
+        "icon": "<i class='fa fa-list-alt'></i>",
+    "text2": "Citibanamex Casa de Bolsa se adhiere al Código de Conducta en la Celebración de Operaciones con Divisas.",
+    "noticesBanners":[
+        {
+            "notices":"Aviso de Privacidad >",
+            "pdfnotices":"../../../assets/pdf/vinetas/CuestionarioPerfilamiento.pdf"
+        },
+        {
+            "notices":"Términos y Uso >",
+            "pdfnotices":"../../../assets/pdf/vinetas/Terminos-Condiciones-Citibanamex-CasadeBolsa.pdf"
+        },
+        {
+            "notices":"Contrato de Intermediación Bursátil >",
+            "pdfnotices":"../../../assets/pdf/vinetas/contrato_de_intermediacion_bursatil.pdf"
+        }
+    ],
+    "noticesBannersTwo":[
+        {
+            "modalText": "Estás saliendo de citibanamex.com<br> y entrarás a un sitio web ajeno a Citibanamex, el cual es responsable de sus propios contenidos y mantiene su política de privacidad y seguridad.",
+            "notices1": "Factura Electrónica >",
+            "Urlnotices1": "https://consultacfdi.cecoban.mx:8443/BNM/",
+            "name":"Factura Electrónica",
+            "cancel": "CANCELAR",
+            "accept": "ACEPTAR"
+        }
+    ],
+    "TradesBanners":[
+        {
+            "titleTradesName": "Sistema de Remuneraciones >",
+            "pdfTrades": "../../../assets/pdf/vinetas/aviso-internet-sistema-remuneraciones-accival.pdf"
+        },
+        {
+            "titleTradesName": "Declaraciones de Análisis >",
+            "pdfTrades": "../../../assets/pdf/vinetas/Disclosures.pdf"
+        },
+        {
+            "titleTradesName": "Títulos Opcionales >",
+            "pdfTrades": "../../../assets/pdf/vinetas/prospecto.pdf"
+        }
+    ],
+    "titleNotices": "Avisos Legales",
+    "titleTrades": "Oficios",
+    "normativity": "Normatividad",
+    "Urlnormativity1": "https://consultacfdi.cecoban.mx:8443/BNM/",
+    "Urlnormativity2": "https://consultacfdi.cecoban.mx:8443/BNM/",
+    "Urlnormativity3": "https://www.banamex.com/sitios/casa-de-bolsa/#/",
+    "pdfNormativity":"../../../assets/pdf/vinetas/Disposiciones-caracter-general-aplicables-a-casasbolsa_18Dic2017_.pdf",
+    "normativityTitle1": "Ley de Mercado de Valores >",
+    "normativityTitle2": "Ley de Sociedades de Inversión >",
+    "normativityTitle3": "Disposiciones Casa de Bolsa >",
+    "normativityTitle4": "Sociedades de Inversión >",
+    "normativityTitleName1": "Ley de Mercado de Valores",
+    "normativityTitleName2": "Ley de Sociedades de Inversión",
+    "normativityTitleName3": "Disposiciones Casa de Bolsa",
+    "normativityTitleName4": "Sociedades de Inversión",
+    "cancel": "CANCELAR",
+    "accept": "ACEPTAR",
+    "modalText": "Estás saliendo de citibanamex.com<br> y entrarás a un sitio web ajeno a Citibanamex, el cual es responsable de sus propios contenidos y mantiene su política de privacidad y seguridad."
+  
+}

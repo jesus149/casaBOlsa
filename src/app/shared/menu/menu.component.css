@@ -1,0 +1,79 @@
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+.menuTop,
+.bg-light {
+    border-color: #002d72 !important;
+    background-color: #002d72 !important;
+}
+
+.navbar-light .navbar-brand,
+.navbar-light .navbar-nav .nav-link {
+    color: #ffffff;
+}
+
+.navbarCitibanamex {
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: -10px;
+    margin-top: -10px;
+}
+
+.letterSubtitle{
+    font-size: 14px;
+}
+
+.letterTitle{
+    margin-left: -40px;
+    font-size: 17px;
+}
+
+.subMenu {
+    width: 100% !important;
+    height: auto;
+    background-color: #004785;
+    position: absolute;
+    z-index: 3;
+    padding: 0 20px 20px 20px !important;
+}
+
+.subMenu h3 {
+    font-size: 16px;
+    color: #fff;
+    border-bottom: 1px solid #00bdf2;
+    padding: 20px 0;
+    font-family: interstate-mono, sans-serif;
+    font-weight: 700;
+}
+
+.subMenu li,
+.subMenu li a {
+    color: #fff;
+    font-family: interstate-mono, sans-serif;
+    font-size: 14px;
+}
+
+.subMenu li:hover {
+    background-color:#00bdf2;
+  }
+  
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
+
+@media (min-width: 768px) {
+    .navbar-nav {
+        float: right !important;
+    }
+    .navbar-nav>li {
+        float: left;
+        margin-left: 30px;
+    }
+}
+

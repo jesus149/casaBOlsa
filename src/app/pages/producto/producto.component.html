@@ -1,0 +1,46 @@
+<div class="container-fluid containerDiv">
+    <div class="row">
+      <div class="col-md-3">
+        <h4 class="title">Productos</h4>
+        <div *ngFor="let info of menus; let i = index">
+            <div class="panel-group collapse-distance" id="accordionMenu" role="tablist" aria-multiselectable="true">
+                <div class="panel panel-default border" style="border-radius: 5px;">
+                    <div class="panel-heading " role="tab" id="headingOne">
+                        <h4 class="panel-title ">
+                            <a role="button" class="font-box" data-toggle="collapse" data-parent="#accordionMenu"
+                                [href]="'#menus' + info.id" aria-expanded="true" aria-controls="collapseOne">
+                                {{info.titulo}}
+                            </a>
+                        </h4>
+                    </div>
+                    <div [id]="'menus' + info.id" class="collapse" role="tabpanel" aria-labelledby="headingOne">
+                        <div class="panel-body body-bx">
+                            <ul class="ul-margin">
+                              <li *ngFor="let sub of info.subcategoria | orderBy:'titulo' ">
+                                <a [routerLink]="['/producto/', sub.id]" routerLinkActive="active" ><p>{{sub.titulo}}</p></a>
+                              </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="col-md-8 margin-box">
+        <ng-container *ngFor="let info of dataProId;">
+    <p class="titles" >{{info.titulo}}</p>
+    <p [innerHTML]="info.contenido" class="content-text"></p>
+</ng-container>
+        </div>
+    </div>
+</div>
+<br><br>
+<div class="container">
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-10"><p class="text3">{{foot}}</p></div>
+        <div class="col-md-1"></div>
+    </div>
+</div>
+<br><br>
+<app-loading *ngIf="loading"></app-loading>

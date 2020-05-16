@@ -1,0 +1,361 @@
+{
+    "Extra":null,
+    "current_page":0,
+    "total_pages":1,
+    "data":[
+        {
+            "id":68,
+            "titulo":"Reportes regulatorios",
+            "pdf":"1T2019-reportes-regulatorios.pdf",
+            "fc":1556168400000,
+            "fp":1554012000000
+        },
+        {   
+            "id":67,
+            "titulo":"Artículo 75",
+            "pdf":"1T2019-articulo75.pdf",
+            "fc":1556168400000,
+            "fp":1554012000000},
+        {
+            "id":66,
+            "titulo":"Información trimestral",
+            "pdf":"1T2019-informacion-trimestral.pdf",
+            "fc":1556168400000,
+            "fp":1554012000000
+            },
+        {
+            "id":65,
+            "titulo":"Eventos relevantes",
+            "pdf":"1T2019-eventos-relevantes.pdf",
+            "fc":1556168400000,
+            "fp":1554012000000
+            },
+        {
+            "id":64,
+            "titulo":"Reportes regulatorios",
+            "pdf":"4T2018-reportes-regulatorios.pdf",
+            "fc":1546236000000,
+            "fp":1546236000000
+        },
+        {
+            "id":63,
+            "titulo":"Artículo 75",
+            "pdf":"4T2018-articulo75.pdf",
+            "fc":1546236000000,
+            "fp":1546236000000
+            },
+        {
+            "id":62,
+            "titulo":"Información trimestral",
+            "pdf":"4T2018-informacion-trimestral.pdf",
+            "fc":1546236000000,
+            "fp":1546236000000
+            },
+        {
+            "id":61,
+            "titulo":"Eventos relevantes",
+            "pdf":"4T2018-eventos-relevantes.pdf",
+            "fc":1540357200000,
+            "fp":1540357200000
+            },
+        {
+            "id":46,
+            "titulo":"Eventos relevantes",
+            "pdf":"3T18_EventosRelevantes.pdf",
+            "fc":1537419600000,
+            "fp":1537419600000}
+            ,
+        {
+            "id":45,
+            "titulo":"Información trimestral",
+            "pdf":"3T18_TercerTrimestre.pdf",
+            "fc":1536901200000,
+            "fp":1536901200000
+            },
+        {
+            "id":44,
+            "titulo":"Artículo 75",
+            "pdf":"3T18_ART75.pdf",
+            "fc":1536123600000,
+            "fp":1536123600000
+            },
+        {
+            "id":43,
+            "titulo":"Reportes regulatorios",
+            "pdf":"3T18_Regulatorio.pdf",
+            "fc":1535778000000,
+            "fp":1535778000000
+            },
+        {
+            "id":39,
+            "titulo":"Reportes regulatorios",
+            "pdf":"2T2018-reportes-regulatorios.pdf",
+            "fc":1523941200000,
+            "fp":1523941200000
+            },
+        {
+            "id":38,
+            "titulo":"Información trimestral",
+            "pdf":"2T2018-informacion-trimestral.pdf",
+            "fc":1523336400000,
+            "fp":1523336400000
+            },
+        {
+            "id":37,
+            "titulo":"Eventos relevantes",
+            "pdf":"2T2018-eventos-relevantes.pdf",
+            "fc":1522731600000,
+            "fp":1522731600000
+            },
+        {
+            "id":36,
+            "titulo":"Artículo 75",
+            "pdf":"2T2018-ART75.pdf",
+            "fc":1522562400000,
+            "fp":1522562400000
+            },
+        {
+            "id":35,
+            "titulo":"Reportes regulatorios",
+            "pdf":"1T2018-reportes-regulatorios.pdf",
+            "fc":1517464800000,
+            "fp":1517464800000
+            },
+        {
+            "id":34,
+            "titulo":"Información trimestral",
+            "pdf":"1T2018-informacion-trimestral.pdf",
+            "fc":1515045600000,
+            "fp":1515045600000
+            },
+        {
+            "id":33,
+            "titulo":"Eventos relevantes",
+            "pdf":"1T2018-eventos-relevantes.pdf",
+            "fc":1514872800000,
+            "fp":1514872800000
+            },
+        {
+            "id":32,
+            "titulo":"Artículo 75",
+            "pdf":"1T2018-ART75.pdf",
+            "fc":1514786400000,
+            "fp":1514786400000
+            },
+        {
+            "id":31,
+            "titulo":"Reportes regulatorios",
+            "pdf":"4T2017-reportes-regulatorios.pdf",
+            "fc":1507611600000,
+            "fp":1507611600000
+            },
+        {
+            "id":30,
+            "titulo":"Información trimestral anexo",
+            "pdf":"4T2017-informacion-trimestral-2.pdf",
+            "fc":1507179600000,
+            "fp":1507179600000
+            },
+        {
+            "id":29,
+            "titulo":"Información trimestral",
+            "pdf":"4T2017-informacion-trimestral-1.pdf",
+            "fc":1507093200000,
+            "fp":1507093200000
+            },
+        {
+            "id":28,
+            "titulo":"Eventos relevantes anexo",
+            "pdf":"4T2017-eventos-relevantes-2.pdf",
+            "fc":1507006800000,
+            "fp":1507006800000
+            },
+        {
+            "id":27,
+            "titulo":"Eventos relevantes",
+            "pdf":"4T2017-eventos-relevantes-1.pdf",
+            "fc":1506920400000,
+            "fp":1506920400000
+            },
+        {
+            "id":26,
+            "titulo":"Articulo 75",
+            "pdf":"4T2017-ART75.pdf",
+            "fc":1506834000000,
+            "fp":1506834000000
+            },
+        {
+            "id":20,
+            "titulo":"Articulo 75",
+            "pdf":"3T17-ART75.pdf",
+            "fc":1499662800000,
+            "fp":1499662800000
+            },
+        {
+            "id":21,
+            "titulo":"Eventos relevantes",
+            "pdf":"3T17-EventosRelevantes1.pdf",
+            "fc":1499576400000,
+            "fp":1499576400000
+            },
+        {
+            "id":22,
+            "titulo":"Eventos relevantes anexo",
+            "pdf":"3T17-EventosRelevantes2.pdf",
+            "fc":1499490000000,
+            "fp":1499490000000
+            },
+        {
+            "id":23,
+            "titulo":"Información trimestral",
+            "pdf":"3T17-InformacionTrimestral1.pdf",
+            "fc":1499403600000,
+            "fp":1499403600000
+            },
+        {
+            "id":24,
+            "titulo":"Información trimestral anexo",
+            "pdf":"3T17-InformacionTrimestral2.pdf",
+            "fc":1499317200000,
+            "fp":1499317200000
+            },
+        {
+            "id":25,
+            "titulo":"Reportes regulatorios",
+            "pdf":"3T17-ReportesRegulatorios.pdf",
+            "fc":1499230800000,
+            "fp":1499230800000
+            },
+        {
+            "id":19,
+            "titulo":"Eventos relevantes anexo",
+            "pdf":"2T17_EventosRelevantes_2.pdf",
+            "fc":1496379600000,
+            "fp":1496379600000
+            },
+        {
+            "id":18,
+            "titulo":"Eventos relevantes",
+            "pdf":"2T17_EventosRelevantes_1.pdf",
+            "fc":1496293200000,
+            "fp":1496293200000
+            },
+        {
+            "id":17,
+            "titulo":"Artículo 75",
+            "pdf":"2T17_Art75.pdf",
+            "fc":1493701200000,
+            "fp":1493701200000
+            },
+        {
+            "id":16,
+            "titulo":"Regulatorio segundo trimestre",
+            "pdf":"2T17_Regulatorio.pdf",
+            "fc":1493614800000,
+            "fp":1493614800000
+            },
+        {
+            "id":14,
+            "titulo":"Segundo trimestre",
+            "pdf":"2T17_SegundoTrimestre_1.pdf",
+            "fc":1491112800000,
+            "fp":1491112800000},
+        {
+            "id":15,
+            "titulo":"Segundo trimestre anexo",
+            "pdf":"2T17_SegundoTrimestre_2.pdf",
+            "fc":1491026400000,
+            "fp":1491026400000
+        },
+        {
+            "id":13,
+            "titulo":"Artículo 72",
+            "pdf":"1T17_Art 72.pdf",
+            "fc":1488348000000,
+            "fp":1488348000000
+            },
+        {
+            "id":12,
+            "titulo":"Regulatorio primer trimestre",
+            "pdf":"1T17_Regulatorio.pdf",
+            "fc":1486015200000,
+            "fp":1486015200000
+            },
+        {
+            "id":11,
+            "titulo":"Primer trimestre",
+            "pdf":"1T17_PrimerTrimestre.pdf",
+            "fc":1485928800000,
+            "fp":1485928800000
+            },
+        {
+            "id":10,
+            "titulo":"Eventos relevantes",
+            "pdf":"1T17_EventosRelevantes.pdf",
+            "fc":1483250400000,
+            "fp":1483250400000
+            },
+        {
+            "id":9,
+            "titulo":"Regulatorio cuarto trimestre",
+            "pdf":"4T16_Regulatorio.pdf",
+            "fc":1480572000000,
+            "fp":1480572000000}
+            ,
+        {
+            "id":8,
+            "titulo":"Cuarto trimestre",
+            "pdf":"4T16_CuartoTrimestre.pdf",
+            "fc":1477980000000,
+            "fp":1477980000000
+            },
+        {
+            "id":7,
+            "titulo":"Eventos relevantes",
+            "pdf":"4T16_Eventos Relevantes.pdf",
+            "fc":1475298000000,
+            "fp":1475298000000
+            },
+        {
+            "id":6,
+            "titulo":"Regulatorio tercer trimestre",
+            "pdf":"3T16_Regulatorio.pdf",
+            "fc":1472706000000,
+            "fp":1472706000000
+            },
+        {
+            "id":5,
+            "titulo":"Tercer trimestre",
+            "pdf":"3T16_TercerTrimestre.pdf",
+            "fc":1470027600000,
+            "fp":1470027600000
+            },
+        {
+            "id":4,
+            "titulo":"Eventos relevantes",
+            "pdf":"3T16_Eventos Relevantes.pdf",
+            "fc":1467349200000,
+            "fp":1467349200000
+            },
+        {
+            "id":3,
+            "titulo":"Regulatorio segundo trimestre",
+            "pdf":"2T16_Regulatorio.pdf",
+            "fc":1464757200000,
+            "fp":1464757200000
+            },
+        {
+            "id":2,
+            "titulo":"Segundo trimestre",
+            "pdf":"2T16_SegundoTrimestre.pdf",
+            "fc":1462078800000,
+            "fp":1462078800000
+            },
+        {
+            "id":1,
+            "titulo":"Eventos relevantes",
+            "pdf":"2T16_EventosRelevantes.pdf",
+            "fc":1459490400000,
+            "fp":1459490400000
+            }],
+    "total_results":51}

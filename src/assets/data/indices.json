@@ -1,0 +1,75 @@
+{
+    "indicesArray":
+    [
+        {
+            "ValorActual": 79010.8,
+            "ValorCierre": 77772.2,
+            "VariacionPorcentualAnual": -13.46,
+            "VariacionPorcentualMensual": 0.23,
+            "cveInstrumento": "BOVESPA"
+        },
+        {
+            "ValorActual": 41.92,
+            "ValorCierre": 42.06,
+            "VariacionPorcentualAnual": -35.13,
+            "VariacionPorcentualMensual": -12.04,
+            "cveInstrumento": "C"
+        },
+        {
+            "ValorActual": 999.97,
+            "ValorCierre": 998.97,
+            "VariacionPorcentualAnual": -20.45,
+            "VariacionPorcentualMensual": -6.06,
+            "cveInstrumento": "C*"
+        },
+        {
+            "ValorActual": 23685.42,
+            "ValorCierre": 23625.34,
+            "VariacionPorcentualAnual": -6.69,
+            "VariacionPorcentualMensual": -0.02,
+            "cveInstrumento": "DOW JONES"
+        },
+        {
+            "ValorActual": 2770.7,
+            "ValorCierre": 2760.23,
+            "VariacionPorcentualAnual": -18.18,
+            "VariacionPorcentualMensual": -1.34,
+            "cveInstrumento": "EuroStoxx 50"
+        },
+        {
+            "ValorActual": 5799.77,
+            "ValorCierre": 5741.54,
+            "VariacionPorcentualAnual": -20.52,
+            "VariacionPorcentualMensual": 3.61,
+            "cveInstrumento": "FTSE 100"
+        },
+        {
+            "ValorActual": 35691.39,
+            "ValorCierre": 36094.14,
+            "VariacionPorcentualAnual": -17.65,
+            "VariacionPorcentualMensual": 5.42,
+            "cveInstrumento": "IPC"
+        },
+        {
+            "ValorActual": 9152.64,
+            "ValorCierre": 9094.43,
+            "VariacionPorcentualAnual": 24.24,
+            "VariacionPorcentualMensual": 7.81,
+            "cveInstrumento": "NASDAQ 100 Index"
+        },
+        {
+            "ValorActual": 20037.47,
+            "ValorCierre": 19914.78,
+            "VariacionPorcentualAnual": -5.81,
+            "VariacionPorcentualMensual": 2.49,
+            "cveInstrumento": "NIKKEI"
+        },
+        {
+            "ValorActual": 2863.7,
+            "ValorCierre": 2852.5,
+            "VariacionPorcentualAnual": 1.55,
+            "VariacionPorcentualMensual": 2.09,
+            "cveInstrumento": "S&P 500"
+        }
+]
+}

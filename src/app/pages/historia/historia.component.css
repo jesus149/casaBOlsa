@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'interstate-mono', sans-serif;
+    src: url('/fonts/interstate_mono__lgt-webfont.eot');
+    src: url('/fonts/interstate_mono__lgt-webfont.eot?#iefix') format('embedded-opentype'), url('/fonts/interstate_mono__lgt-webfont.woff') format('woff'), url('/fonts/interstate_mono__lgt-webfont.ttf') format('truetype'), url('/fonts/interstate_mono__lgt-webfont.svg#rudabold') format('svg');
+    font-weight: 400;
+    font-style: normal
+}
+
+
+/*-- Historia --*/
+
+.title {
+    font-size: 32px;
+    text-align: center;
+    font-weight: bold;
+    color: #004785;
+}
+
+.SubTitle {
+    font-weight: bold;
+    color: #004785;
+}
+
+#historia {
+    margin-bottom: 30px;
+}
+
+.text{
+    font-size: 13px;
+    text-align: justify
+}
+
+.paragraph{
+    font-size: 12px;
+    text-align: justify;
+}
+
+.paragraph3{
+    color: #004785;
+    font-size: 22px;
+    text-align: center;
+    font-family: interstate-mono;
+    font-weight: 700;
+}
+
+.foot{
+    font-size: 14px;
+    text-align: justify;
+}
+
+hr{
+    border: 1px solid #002d72;
+    margin-top: -12px;
+}
+
+@media(max-width: 668px) {
+    /*-- titulos --*/
+    .titulos {
+        font-size: 20px !important;
+    }
+    #historia h3 {
+        font-size: 16px;
+    }
+    #historia p.negrita {
+        font-size: 13px;
+    }
+    #historia h2.txtPie {
+        font-size: 14px;
+    }
+}

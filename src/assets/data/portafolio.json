@@ -1,0 +1,36 @@
+{
+    "briefcase":[
+        {
+            "title": "Nuestro Portafolio de Inversión",
+            "text": "En el Área de Mercados de Citibanamex Casa de Bolsa te proporcionamos atención de excepcional calidad, con recursos tecnológicos de punta, para que accedas a todos los servicios del Mercado Bursátil Mexicano."
+        }
+    ],
+    "briefcaseColum1":[
+        {
+            "analysis":"Análisis",
+            "bankin":"Banca Privada y Banca Patrimonial",
+            "product":"Ver producto",
+            "routerAnalysis":"#/producto/24",
+            "routerBankin":"#/producto/27"
+        }
+    ],
+    "briefcaseColum2":[
+        {
+            "capital":"Capital Markets Origination",
+            "distribution":"Distribución Bursátil",
+            "product":"Ver producto",
+            "routerLinkCapital":"#/producto/28",
+            "routerLinkDistribution":"#/producto/37"
+
+        }
+    ],
+    "briefcaseColum3":[
+        {
+            "investment":"Fondos de Inversión",
+            "markets":"Mercados",
+            "product":"Ver producto",
+            "routerLinkInvestment":"https://www.banamex.com/fondos-de-inversion/index.html",
+            "routerLinkMarkets":"#/producto/32"
+        }
+    ]
+}

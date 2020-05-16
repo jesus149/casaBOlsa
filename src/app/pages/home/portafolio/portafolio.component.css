@@ -1,0 +1,80 @@
+/*-- portafolio --*/
+
+.wBlanco {
+    background-color: #fff;
+    padding-bottom: 50px;
+    float: left;
+    text-align: center;
+}
+
+.portafolio {
+    margin-top: 30px !important;
+    margin-bottom: 30px;
+}
+
+.portafolio h3 {
+    font-size: 21px;
+    color: #004785;
+    font-weight: normal;
+    margin: 30px 0 6px 0;
+}
+
+.portafolio a {
+    color: #00bdf2;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
+
+.divColum{
+    margin-left:-40px
+}
+
+.portafolio p {
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    color: #666;
+    font-size: 18px;
+}
+
+.item-portafolio {
+    height: 90px;
+}
+
+.port-der,
+.port-izq {
+    text-align: center;
+}
+
+@media(max-width: 768px) {
+    /*-- titulos --*/
+    .portafolio h3 {
+        font-size: 22px;
+    }
+}
+
+@media(max-width: 668px) {
+    /*-- titulos --*/
+    .portafolio h3 {
+        font-size: 18px;
+    }
+    .portafolio p {
+        width: 80%;
+        font-size: 13px;
+        margin-bottom: 5px;
+    }
+    .item-portafolio {
+        height: auto;
+    }
+    .item-portafolio h3 {
+        font-size: 15px;
+    }
+    .item-portafolio a {
+        font-size: 14px;
+    }
+}

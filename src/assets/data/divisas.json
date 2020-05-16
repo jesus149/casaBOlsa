@@ -1,0 +1,117 @@
+{
+    "divisasArray":
+    [
+        {
+        "Cierre": 15.438,
+        "ValorActualCompra": 15.330318,
+        "ValorActualVenta": 15.372187,
+        "VariacionPorcentualAnualVta": 16.5636916324804,
+        "VariacionPorcentualMensualVta": 2.14281494858863,
+        "cveInstrumento": "AUDMXN"
+        },
+        {
+        "Cierre": 4.1057,
+        "ValorActualCompra": 4.086131,
+        "ValorActualVenta": 4.091297,
+        "VariacionPorcentualAnualVta": -13.4534684025187,
+        "VariacionPorcentualMensualVta": -9.69435915322645,
+        "cveInstrumento": "BRLMXN"    
+        },
+        {
+            "Cierre": 17.000401,
+            "ValorActualCompra": 16.940023,
+            "ValorActualVenta": 16.986288,
+            "VariacionPorcentualAnualVta": 19.5207439323243,
+            "VariacionPorcentualMensualVta": 0.880072946689925,
+            "cveInstrumento": "CADMXN"  
+        },
+        {
+            "Cierre": 24.5137,
+            "ValorActualCompra": 24.599825,
+            "ValorActualVenta": 24.667009,
+            "VariacionPorcentualAnualVta": 30.1860863017691,
+            "VariacionPorcentualMensualVta": 1.37891175095026,
+            "cveInstrumento": "CHFMXN"  
+        },
+        {
+            "Cierre": 3.362074,
+            "ValorActualCompra": 3.37148,
+            "ValorActualVenta": 3.376162,
+            "VariacionPorcentualAnualVta": 21.8070326333937,
+            "VariacionPorcentualMensualVta": 1.74332917527811,
+            "cveInstrumento": "CNYMXN" 
+        },
+        {
+            "Cierre": 0.006106,
+            "ValorActualCompra": 0.006071,
+            "ValorActualVenta": 0.006086,
+            "VariacionPorcentualAnualVta": 4.90698085172563,
+            "VariacionPorcentualMensualVta": 0.511977352695103,
+            "cveInstrumento": "COPMXN" 
+        },
+        {
+            "Cierre": 116.009003,
+            "ValorActualCompra": 115.952003,
+            "ValorActualVenta": 115.970001,
+            "VariacionPorcentualAnualVta": -5.55804167166097,
+            "VariacionPorcentualMensualVta": -1.42628993869728,
+            "cveInstrumento": "EURJPY" 
+        },
+        {
+            "Cierre": 25.783199,
+            "ValorActualCompra": 25.900999,
+            "ValorActualVenta": 25.923,
+            "VariacionPorcentualAnualVta": 21.2216155951492,
+            "VariacionPorcentualMensualVta": 0.841020801146053,
+            "cveInstrumento": "EURMXN" 
+        },
+        {
+            "Cierre": 1.08061,
+            "ValorActualCompra": 1.08196,
+            "ValorActualVenta": 1.08208,
+            "VariacionPorcentualAnualVta": -3.19556248121692,
+            "VariacionPorcentualMensualVta": -1.50193911621403,
+            "cveInstrumento": "EURUS" 
+        },
+        {
+            "Cierre": 29.185101,
+            "ValorActualCompra": 28.926306,
+            "ValorActualVenta": 29.005306,
+            "VariacionPorcentualAnualVta": 18.5326914691276,
+            "VariacionPorcentualMensualVta": -1.80142228072341,
+            "cveInstrumento": "GBPMXN" 
+        },
+        {
+            "Cierre": 0.008616,
+            "ValorActualCompra": 0.008631,
+            "ValorActualVenta": 0.008633,
+            "VariacionPorcentualAnualVta": 6.0020737774575,
+            "VariacionPorcentualMensualVta": 1.60259480610412,
+            "cveInstrumento": "JPYEUR" 
+        },
+        {
+            "Cierre": 0.222229,
+            "ValorActualCompra": 0.223241,
+            "ValorActualVenta": 0.223851,
+            "VariacionPorcentualAnualVta": 28.549526066156,
+            "VariacionPorcentualMensualVta": 2.48133468214276,
+            "cveInstrumento": "JPYMXN"
+        },
+        {
+            "Cierre": 23.8841,
+            "ValorActualCompra": 18.0925,
+            "ValorActualVenta": 19.2059,
+            "VariacionPorcentualAnualVta": -0.0694000000000017,
+            "VariacionPorcentualMensualVta": 19.2059,
+            "cveInstrumento": "MXNUS"
+        },
+        {
+            "Cierre":0.92533,
+            "ValorActualCompra": 0.923967,
+            "ValorActualVenta": 0.924428,
+            "VariacionPorcentualAnualVta": 3.31402056263217,
+            "VariacionPorcentualMensualVta": 1.55859734657997,
+            "cveInstrumento": "USDEUR"
+        }
+]
+}

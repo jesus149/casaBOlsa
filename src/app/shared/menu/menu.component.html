@@ -1,0 +1,37 @@
+
+<div class="container-fluid menuTop">
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light navbar-dark  navbarCitibanamex">
+            <a class="navbar-brand letterTitle" routerLink="{{titleUrl}}">{{title}}</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto Subtitle">
+                    <li class="nav-item">
+                        <a class="nav-link letterSubtitle" href="{{informativeUrl}}" target="_blank">{{informative}}</a>
+                    </li>
+                    <li class="nav-item" routerLinkActive="active">
+                        <a class="nav-link letterSubtitle" routerLink="{{historyUrl}}">{{history}}</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle letterSubtitle" href="javascript:void(0);" (click)="abreMenu()">
+                            {{product}}
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</div>
+<div class="container-fluid subMenu" *ngIf="verMenu">
+    <app-loading *ngIf="loading" style="color: white;"></app-loading>
+    <div class="row">
+        <div class="col-md-4 col-sm-4" *ngFor="let menu of menus">
+            <h3>{{ menu.titulo }}</h3>
+            <ul>
+                <li *ngFor="let submenu of menu.subcategoria"><a routerLink="/producto/{{submenu.id}}" (click)="abreMenu()">{{ submenu.titulo }}</a></li>
+            </ul>
+        </div>
+    </div>
+</div>

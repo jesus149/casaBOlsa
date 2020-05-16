@@ -1,0 +1,42 @@
+<div class="container-fluid gris">
+    <h2 class="sub-titulo">{{name}}</h2>
+    <app-loading *ngIf="loading"></app-loading>
+    <div class="botonera">
+        <ul>
+            <li
+            (click)="yearBtn(year)" 
+             [ngClass]="{'btnActivo': idYear === j }" 
+             [id]="j" 
+             (click)="addClassYear(idYear=j)"
+            class="btn btnReporte"
+            *ngFor="let year of btnYear; let j = index">{{ year }}
+        </li>
+        </ul>
+    </div>
+    <div class="botonera">
+        <ul >
+            <li 
+            (click)="trimestreBtn(btn)" 
+            class="btn btnReporte"
+             [ngClass]="{'btnActivo': id === i }" 
+             [id]="i" 
+             (click)="addClass(id=i)"
+            *ngFor="let btn of btnTrimestre; let i = index">{{ btn }}
+            </li>
+        </ul>
+    </div>
+ 
+    <div id="informes-trimestrales " class="informes">
+        <div *ngFor="let reporte of reportes" class="text-center">
+            <div [ngClass]='isSameTri(ultimoTrimestre, reporte.fp | claseVerInformes)' 
+            class="item-informe {{reporte.fp | btnTrimestre | claseInformes}}" 
+            [id]="reporte.fp | claseVerInformes">
+                <a href="{{reporte.pdf}}" target="_blank ">
+                    <img src="{{image}}" width="70 ">
+                    <p>{{ reporte.titulo  }}</p>
+                </a>
+                <p>{{ reporte.pdf  }}</p>
+            </div>
+        </div>
+    </div>
+</div>

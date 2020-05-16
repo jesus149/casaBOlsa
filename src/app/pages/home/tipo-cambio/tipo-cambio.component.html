@@ -1,0 +1,92 @@
+<div class="container-fluid">
+    <div class="container">
+        <h1 class="htitulo">Casa de Bolsa Citibanamex</h1>
+        <div class="cont-hd">
+            <div class="curr">
+                <div class="tb-curr">
+                    <div class="des-curr">
+                        <p>Divisas</p>
+                        <p>Compra</p>
+                        <p>Ventas</p>
+                    </div>
+                    <div id="dat_divisas" class="val-curr">
+                        <div *ngFor="let divisa of divisasArray">
+                            <section *ngIf="divisa.cveInstrumento == 'EURMXN'">
+                            <p><b>{{divisa.cveInstrumento | tipoCambio}}</b></p>
+                            <p>{{divisa.ValorActualCompra | number:'.0-4'}}</p>
+                            <p>{{divisa.ValorActualVenta | number:'.0-4'}}</p>
+                            </section>
+                        </div>
+                        <div *ngFor="let divisa of divisasArray">
+                            <section *ngIf="divisa.cveInstrumento == 'GBPMXN'">
+                            <p ><b>{{divisa.cveInstrumento | tipoCambio}}</b></p>
+                            <p>{{divisa.ValorActualCompra | number:'.0-4'}}</p>
+                            <p>{{divisa.ValorActualVenta | number:'.0-4'}}</p>
+                            </section>    
+                        </div>
+                        <div *ngFor="let divisa of divisasArray">
+                            <section *ngIf="divisa.cveInstrumento == 'JPYMXN'">
+                            <p><b>{{divisa.cveInstrumento | tipoCambio}}</b></p>
+                            <p>{{divisa.ValorActualCompra | number:'.0-4'}}</p>
+                            <p>{{divisa.ValorActualVenta | number:'.0-4'}}</p>
+                            </section>
+                        </div>
+                        <div *ngFor="let divisa of divisasArray">
+                            <section *ngIf="divisa.cveInstrumento == 'MXNUS'">
+                            <p><b>{{divisa.cveInstrumento | tipoCambio}}</b></p>
+                            <p>{{divisa.ValorActualCompra | number:'.0-4'}}</p>
+                            <p>{{divisa.ValorActualVenta | number:'.0-4'}}</p>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="markt">
+                <div class="tb-markt">
+                    <div class="des-markt">
+                        <p>Acción</p>
+                        <p>Variación</p>
+                        <p>Cotización</p>
+                    </div>
+                    <div id="dat_indices" class="val-markt">
+                        <div *ngFor="let indice of indicesArray">
+                            <section *ngIf="indice.cveInstrumento == 'C'">
+                            <p><b>{{indice.cveInstrumento | tipoCambio}}</b></p>
+                            <p>{{indice.ValorCierre}}</p>
+                            <p>{{indice.ValorActual}}</p>
+                            </section>
+                        </div>
+                        <div *ngFor="let indice of indicesArray">
+                            <section *ngIf="indice.cveInstrumento == 'C*'">
+                            <p><b>{{indice.cveInstrumento | tipoCambio}}</b></p>
+                            <p>{{indice.ValorCierre}}</p>
+                            <p>{{indice.ValorActual}}</p>
+                            </section>
+                        </div>
+                        <div *ngFor="let indice of indicesArray">
+                            <section *ngIf="indice.cveInstrumento == 'DOW JONES'">
+                            <p><b>{{indice.cveInstrumento | tipoCambio}}</b></p>
+                            <p>{{indice.ValorCierre}}</p>
+                            <p>{{indice.ValorActual}}</p>
+                            </section>
+                        </div>
+                        <div *ngFor="let indice of indicesArray">
+                            <section *ngIf="indice.cveInstrumento == 'IPC'">
+                            <p><b>{{indice.cveInstrumento | tipoCambio}}</b></p>
+                            <p>{{indice.ValorCierre}}</p>
+                            <p>{{indice.ValorActual}}</p>
+                            </section>
+                        </div>
+                        <div *ngFor="let indice of indicesArray">
+                            <section *ngIf="indice.cveInstrumento == 'NASDAQ 100 Index'">
+                            <p><b>{{indice.cveInstrumento | tipoCambio}}</b></p>
+                            <p>{{indice.ValorCierre}}</p>
+                            <p>{{indice.ValorActual}}</p>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

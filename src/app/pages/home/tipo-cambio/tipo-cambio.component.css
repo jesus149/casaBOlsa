@@ -1,0 +1,203 @@
+/*-- titulos --*/
+
+.htitulo {
+    font-size: 36px;
+    text-align: center;
+    font-family: 'interstate-mono', sans-serif;
+    font-weight: bold;
+    color: #004785;
+    margin: 50px auto;
+}
+
+.titulos {
+    font-size: 36px;
+    text-align: center;
+    font-family: 'interstate-mono', sans-serif;
+    font-weight: bold;
+    color: #004785;
+}
+
+.cont-hd {
+    margin-top: 20px;
+    background-color: #fff;
+    width: 100%;
+    float: left;
+    display: table;
+    min-height: 120px;
+    padding: 10px 0px;
+}
+
+.curr {
+    display: table-cell;
+    vertical-align: middle;
+    width: 50%;
+    padding: 0px 15px;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACkAAAAoCAYAAABjPNNTAAAACXBIWXMAAAsSAAALEgHS3X78AAACTklEQVRYw+2Z33GbQBDGf5fJ643VQZQKrFRgfA2EVGBSQVAFVioI7gBVEKUBgioIriCoA2ko4PKQfWCYA3NwKMlM9nF1aD/277eHstYSQlTRRMD3lureGl2G+O9X/APyOoAHN0AEbDo/JapoVkBlja5n2ZgSbjGeAgnwZsQjRyC3RudXASmeO4wE15VnILJGnxfLSVU0MfBjIkCAW6CWFw3vSVU0a6ACbgLUwgXYjM1VH0/mPQAvwB546uifRO+SG2AXNNwSnrueHNtYoxPJ07YcRP9OXqQrDxKdYJ5MevTxSyGzRlfSCZzPhwTpSvTj2JyS1uPyZvS3TZzKoVuFnDjrqQZasnN4rg4Jsnb0xltVNKuxjVnIxiTCMTbcfUAyGZGLyliQhx79A1Cposl6iisMDfSYOLXnOAzGJ31AxsBXz9FXSR6WcwB7sSBVNCnwZca8zoSy1YuBbHk0n0E0LkDqwy3nkt50Bti9zPZlQDo8G0uj9uWZn63Ru8VBDmyLY+XtSzm65Oz+AHwEThMZ1lVAnq3RuTV6DWwHzsV/EmR7bmfA/cDeM49gCHvuhqT2XU+t0aUqmm/A++CXA9boWhXNo2uPnsgpvUFODffdNdiPL0gX9U8n2HMxpVMokC7q/+iz5MtZV6jLJUEClEI6xjT6cmCfnz9xpMJ/Dhw5OYpiK3tQPNBmjtboKAhIAZoBnwLWw4Xfl1dVaD6Zy8pwNYDeLUio1ban2sfKsw/AEHwy8aBnky9SQ/DJ9nV0OxX2sq9XsuOcJ9v4//UhkPwCabsHO/MrOfUAAAAASUVORK5CYII=);
+    background-position: 20px center;
+    background-repeat: no-repeat;
+}
+
+.curr .tb-curr,
+.markt .tb-markt {
+    display: table;
+    height: 100%;
+    width: 100%;
+    padding-left: 60px;
+}
+
+.curr .des-curr,
+.markt .des-markt {
+    width: 20%;
+}
+
+.curr .des-curr p,
+.markt .des-markt p {
+    margin-bottom: 3px;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #c9c9c9;
+    font-size: 14px;
+    color: #004780;
+}
+
+.curr .val-curr,
+.markt .val-markt {
+    width: 80%;
+}
+
+.curr .val-curr div,
+.markt .val-markt div {
+    display: table-cell;
+}
+
+.curr .val-curr div p,
+.markt .val-markt div p {
+    margin-bottom: 3px;
+    font-size: 14px;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #c9c9c9;
+}
+
+.curr .val-curr div p:last-child,
+.des-curr p:last-child,
+.markt .val-markt div p:last-child,
+.des-markt p:last-child {
+    border-bottom: none;
+}
+
+.curr .val-curr,
+.markt .val-markt {
+    width: 80%;
+}
+
+.markt {
+    border-left: 1px solid #c9c9c9;
+    display: table-cell;
+    vertical-align: middle;
+    width: 50%;
+    padding: 0px 15px;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAACXBIWXMAAAsSAAALEgHS3X78AAAAbElEQVRYw+3Yyw2AIAwA0GK8upSLiYu5lAPUBTyYiIrJ65UDLzT9hJKZ0XMM0XmMX11ctr1GxHJytOY81d+8ICAgICAgYIez+OqclWJAQEDABxp1yyYsxYCArav47QqVYkBAQMAL25Nf/ptxAFuuGlHIk9wsAAAAAElFTkSuQmCC);
+    background-position: 20px center;
+    background-repeat: no-repeat;
+}
+
+.curr .des-curr,
+.curr .val-curr,
+.markt .des-markt,
+.markt .val-markt {
+    font-size: 14px;
+    display: table;
+    float: left;
+    vertical-align: middle;
+}
+
+.down-m {
+    color: #ff8a00 !important;
+}
+
+.down-m:before {
+    content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAKCAYAAACALL/6AAAACXBIWXMAAAsSAAALEgHS3X78AAAAhUlEQVQY042QwQ2DMAxFnzNJuwndgFW4+EyuPnUENoANyiZlhGxgLkZKEUWxlMP/eT/5srgxAz1ts4gbD+DbGHgmUTYgN8BZlC2FeAPlBi7BkABEKcBwExiCQWrXjQ/QneBVlNch0rnnVfda/AREWYGpsqbw+PfD8WKJk5uW7cboxnh1twOOIx/1K77ojwAAAABJRU5ErkJggg==);
+}
+
+.up-m {
+    color: #39ab4a !important;
+}
+
+.up-m:before {
+    content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAKCAYAAABv7tTEAAAACXBIWXMAAAsSAAALEgHS3X78AAAAjUlEQVQoz42QoRHCQBBFX4iJvAaYwcQTuW71KhQ6HSQdpARKSAFbABL6wCAoBHMiXO4Snvwzb/+fhQzipuL2oMChkN8AFbfLX5K49cB5Ia+oEyEAd6CJUThe2+rjr+dW0wiEJBvisbUkbidgyqwJ6cxl00yZXtz0R4qBss2UNs3so/GzVOI2ll6b4Q10X9X2HLYlYw8BAAAAAElFTkSuQmCC);
+}
+
+@media screen and (max-width:992px) {
+    .curr {
+        display: block;
+        width: 100%;
+    }
+    .markt {
+        border-left: none;
+        border-top: 1px solid #a6a6a6;
+        display: block;
+        width: 100%;
+        margin: 10px 0px 0px 0px;
+        padding-top: 10px;
+    }
+    .curr .des-curr p,
+    .markt .des-markt p {
+        border-bottom: none;
+    }
+    .curr .val-curr div p,
+    .markt .val-markt div p {
+        border-bottom: none;
+    }
+    .htitulo {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .curr {
+        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsSAAALEgHS3X78AAABQElEQVQ4y52V7U3DMBCGH1f8tTIC3YBsQOoFCBuECegGdIR2AsIGYQE3nYCwQdmglQcwf66SZex8YMlS5Isfv3d+L1Hee8aGsq4CjsDJG10xMVQOqKxbA7XMR+AK9EDnjW4XAZV1pWwuMvtOQO2NvsSBVQb2NQJDFCdVrhJrTfB8ADaBqo2kDvAkh08Cw8Lvw4A3uge6YOkP8C4BXAfPl0R8F6R7ngMcpEaImj5SeU6BxlJuo+K/3ZQr6xqxE0ttswdeR/adgK03elhq7J0YO2WhK1BKCaaBida72SWEf3qj66ka5sYgDvjIWCzbKV7mPo5Jq22DpWLOLac6Job+LLHN9+10ZV0XGR1l3Q64j97NX4qyrgHeM7cap/nsje5GFcq37pAAFhHsJYZN+bCUOlbAgygcpBXb2H//8eGsX8AvrEmH7DjADbgAAAAASUVORK5CYII=);
+    }
+    .markt {
+        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsSAAALEgHS3X78AAAAbUlEQVQ4y2P8//8/AzUBCyWaGfd9PgBj/3fidaDYQAYGBnt0ASYGKoNRA/HGaAPjvs//ofjAaBgSzimM+z5PYGBgMIByF1Aj6xkg5YQDA+9lbBmd0jC0H3nJ5iCa3AUk9gM0NRdw6GFgpHYVAABZeiG3YITgQwAAAABJRU5ErkJggg==);
+    }
+    .curr .tb-curr,
+    .markt .tb-markt {
+        padding-left: 40px;
+    }
+    .curr .des-curr,
+    .markt .des-markt,
+    .curr .val-curr,
+    .markt .val-markt {
+        width: 100%;
+    }
+    .curr .des-curr p,
+    .markt .des-markt p {
+        display: table-cell;
+        width: 33%;
+    }
+    .curr .val-curr div,
+    .markt .val-markt div {
+        display: table;
+        width: 100%;
+    }
+    .curr .val-curr div p,
+    .markt .val-markt div p {
+        display: table-cell;
+        width: 33%;
+    }
+}
+
+@media(max-width: 768px) {
+    /*-- titulos --*/
+    .htitulo,
+    .titulos {
+        font-size: 26px;
+    }
+}
+
+@media(max-width: 668px) {
+    /*-- titulos --*/
+    .htitulo,
+    .titulos {
+        font-size: 20px;
+    }
+}

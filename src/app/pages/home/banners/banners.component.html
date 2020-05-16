@@ -1,0 +1,184 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-4 b-izq">
+            <div class="ba-izq" [innerHTML]="iconWp">{{iconWp}}</div>
+            <div class="ba-der">
+                <p [innerHTML]="bannersTitleWp">{{bannersTitleWp}}<br></p>
+                <p ><a href="{{bannersPdfWp}}" target="_blank" class="here-left">{{hereWp}}</a></p>
+            </div>
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-4 b-der">
+            <div class="ba-izq1" [innerHTML]="icon">{{icon}}</div>
+            <div class="ba-der">
+                <p [innerHTML]="bannersTitle">{{bannersTitle}}<br></p>
+                <p ><a href="{{bannersPdf}}" target="_blank" class="here-right">{{here}}</a></p>
+            </div>
+        </div>
+        <div class="col-md-2"></div>
+    </div>
+    <div class="row">
+        <ng-container *ngFor="let info of imagesBanners">
+            <div class="col-md-3">
+                <img src="{{info.image}}" class="img-responsive" alt="{info.name}}"> 
+                <p class="site"><a href="" target="_blank" data-toggle="modal" data-target="#myModal" (click)="data=info">{{info.site}}</a></p>
+            </div>            
+        </ng-container>
+            <div class="modal fade" id="myModal" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                    <h4 class="modal-title">{{data.name}}</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                    <p class="modalText" [innerHTML]="data.modalText">{{data.modalText}}</p>
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" style="margin-right: 270px;" data-dismiss="modal">{{data.cancel}}</button>
+                    <a href="{{data.url}}" target="_blank">
+                        <button type="button" class="btn bn-accept" (click)="modal()">{{data.accept}}</button>
+                    </a>                    
+                </div>
+                </div>
+                </div>
+            </div>
+    </div>
+</div>
+<hr>
+<br>
+<div class="container">
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
+            <p class="text">{{textBolsaMexicana}}</p>
+        </div>
+        <div class="col-md-1"></div>
+    </div><br>
+    <div class="row">
+        <div class="col-md-12">
+            <p class="text2">{{text2}}</p>
+        </div>
+    </div>
+</div>
+
+
+<div class="row divNotices">
+    <div class="col-md-4 divNoticesFont">
+        <p>{{titleNotices}}</p>
+        <ng-container *ngFor="let notice of noticesBannersTwo">
+            <p class="notices1">
+                <a data-toggle="modal" data-target="#ModalNotices" (click)="data=notice">{{notice.notices1}}</a>
+            </p>   
+        </ng-container> 
+        <div class="modal fade" id="ModalNotices" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                <div class="modal-header">
+                <h4 class="modal-title">{{data.name}}</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                <p class="modalText" [innerHTML]="data.modalText">{{data.modalText}}</p>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-danger" style="margin-right: 270px;" data-dismiss="modal">{{data.cancel}}</button>
+                <a href="{{data.Urlnotices1}}" target="_blank">
+                    <button type="button" class="btn bn-accept" (click)="modal()">{{data.accept}}</button>
+                </a>                    
+            </div>
+            </div>
+            </div>
+        </div>
+        <ng-container *ngFor="let info of noticesBanners">
+            <p class="noticesBanners-font"><a class="noticesBanners-font-link" href="{{info.pdfnotices}}" target="_blank">{{info.notices}}</a></p> 
+        </ng-container>    
+    </div>
+    <div class="col-md-4 divNoticesFont">
+        <p>{{titleTrades}}</p>
+        <ng-container *ngFor="let trade of TradesBanners">
+            <p class="noticesBanners-font"><a class="noticesBanners-font-link" href="{{trade.pdfTrades}}" target="_blank">{{trade.titleTradesName}}</a></p> 
+        </ng-container>
+    </div>
+    <div class="col-md-4 divNoticesFont">
+        <p>{{normativity}}</p>
+        <p class="normativityBanners">
+            <a data-toggle="modal" data-target="#ModalNotices1">{{normativityTitle1}}</a>
+        </p> 
+        <div class="modal fade" id="ModalNotices1" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                <div class="modal-header">
+                <h4 class="modal-title">{{normativityTitleName1}}</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                <p class="modalText" [innerHTML]="modalText">{{modalText}}</p>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-danger" style="margin-right: 270px;" data-dismiss="modal">{{cancel}}</button>
+                <a href="{{data.Urlnotices1}}" target="_blank">
+                    <button type="button" class="btn bn-accept" (click)="modal()">{{accept}}</button>
+                </a>                    
+            </div>
+            </div>
+            </div>
+        </div>
+
+        <p class="normativityBanners">
+            <a data-toggle="modal" data-target="#ModalNotices2">{{normativityTitle2}}</a>
+        </p> 
+        <div class="modal fade" id="ModalNotices2" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                <div class="modal-header">
+                <h4 class="modal-title">{{normativityTitleName2}}</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                <p class="modalText" [innerHTML]="modalText">{{modalText}}</p>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-danger" style="margin-right: 270px;" data-dismiss="modal">{{cancel}}</button>
+                <a href="{{data.Urlnotices1}}" target="_blank">
+                    <button type="button" class="btn bn-accept" (click)="modal()">{{accept}}</button>
+                </a>                    
+            </div>
+            </div>
+            </div>
+        </div>   
+        <p class="noticesBanners-font"><a class="noticesBanners-font-link" href="{{pdfNormativity}}" target="_blank">{{normativityTitle3}}</a></p>
+        
+        <p class="normativityBanners">
+            <a data-toggle="modal" data-target="#ModalNotices4">{{normativityTitle4}}</a>
+        </p> 
+        <div class="modal fade" id="ModalNotices4" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                <div class="modal-header">
+                <h4 class="modal-title">{{normativityTitleName4}}</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                <p class="modalText" [innerHTML]="modalText">{{modalText}}</p>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-danger" style="margin-right: 270px;" data-dismiss="modal">{{cancel}}</button>
+                <a href="{{data.Urlnotices1}}" target="_blank">
+                    <button type="button" class="btn bn-accept" (click)="modal()">{{accept}}</button>
+                </a>                    
+            </div>
+            </div>
+            </div>
+        </div>      
+    </div>
+</div>
+<br><br>
+<div class="container">
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-10"><p class="text3">{{foot}}</p></div>
+        <div class="col-md-1"></div>
+    </div>
+</div>
